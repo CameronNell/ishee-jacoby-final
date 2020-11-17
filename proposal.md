@@ -1,19 +1,32 @@
 # Final project proposal
 
+## Biotic Interactions as Range Limitations for Select Hawaiian Arthropods
 
-Please prepare a short proposal on your final project idea by **Nov 2**. The proposal should include:
+Cameron Ishee, Joshua Jacoby
 
-- Title & description of the project
-- Your name & partner's name
-- A description of the data required, and how it will be obtained (e.g. URL/DOI to data source)
-- 3 questions / analysis tasks you will perform on the data; in the spirit of the assignments we have been doing.
+Cameron Ishee has been working with the UC Berkeley Evolutionary Genomics Lab (EvoLab) for two semesters now, including on the Dimensions Project. This project, conducted remotely, has featured an extensive literature review and data gathering on documented biotic interactions between Hawaiian arthropods, as well as between arthropods and plants. Our goal is to compile every known biotic interaction into a database that can be updated, manipulated, and used for a variety of applications. 
 
-*You may choose to work with your partner or independently on the final project. Please indicate which clearly in your proposal.*
-
-Replicating results of an existing study and exploring the impact of alternative assumptions in the data preparation, statistical methods chosen etc can provide an excellent template for an analysis (you'll see more of this in units 3 & 4)
+I've focused on the order Coleoptera, out of a combination of personal interest and recognition of the critical ecosystem services these detritivores provide. The plan is to explore this subset of the data, identify 3-6 species that have very many or particularly well-documented biotic interactions, and generate interaction webs and maps to depict possible ways in which these biotic interactions might limit the study species' ranges. I've done significant research into the methodology of assessing biotic limits on range, and based on this I would approach the question from the perspective of elevation and land cover type. Given that we understand a species' niche to include such-and-such elevation range and cover type, why do we *not* see them in certain areas? What about their documented range (realized vs fundamental niche) is not explained by elevation change and land cover type? Are there biotic interactions--the presence of a competitor, or the absence of a key food source--that might explain the realized range?
 
 
-Please create your proposal in a markdown file called `proposal.md` in the root directory of the final project repo.  
+The whole scope of my project is as follows:
+
+Step one: review the data to determine which select species may have enough data points to work with, and choose some to explore. 
+
+Step two: determine rough fundamental niche for those species, based on existing research.
+
+Step three: apply analysis of elevation and land cover (geoportal.hawaii.gov)
+
+Step four: layer the interaction data 
+
+Step five: analyze the gap between what is explained by elevation and land cover, and what the interaction data may show
+
+Step six: using climate projections for the Islands, project how some key species' ranges may change in accordance with the expected warming of the next century
+
+Step seven: provide analysis and conservation recommendations for future management based on these findings
+
+
+I'm aware of the scope of this, and in the course of this class I'd consider myself lucky to get through step 3. I want to at least come out of this class project with a better analysis framework for my research, and a working knowledge of how to use maxent as a function. 
 
 
 ## Project Guidelines
